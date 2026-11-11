@@ -1,6 +1,6 @@
-# Data Cleaner: Automated Cleaning for Messy CSV and Excel Files
+﻿# Data Cleaner: Automated Cleaning for Messy CSV and Excel Files
 
-![Tests](https://github.com/YOUR-USERNAME/data-cleaner/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/niwamanyadouglas/data-cleaner/actions/workflows/tests.yml/badge.svg)
 
 A command-line tool that takes a messy CSV or Excel file and produces a clean, analysis-ready dataset along with a plain-language report of what it changed.
 
@@ -50,7 +50,7 @@ The duplicate row was removed, column names were standardised, dates were conver
 Clone the repository and create a virtual environment:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/data-cleaner.git
+git clone https://github.com/niwamanyadouglas/data-cleaner.git
 cd data-cleaner
 python -m venv venv
 source venv/bin/activate        # On Windows: venv\Scripts\activate
@@ -120,27 +120,27 @@ Dates that cannot be parsed become empty cells. The report and the log both say 
 
 ```
 data-cleaner/
-├── .github/
-│   └── workflows/
-│       └── tests.yml
-├── cleaner/
-│   ├── __init__.py
-│   ├── __main__.py
-│   ├── cleaning.py
-│   ├── loader.py
-│   ├── main.py
-│   └── report.py
-├── sample_data/
-│   └── messy_sample.csv
-├── tests/
-│   ├── test_cleaning.py
-│   ├── test_cli.py
-│   └── test_loader.py
-├── .gitignore
-├── LICENSE
-├── pyproject.toml
-├── requirements.txt
-└── README.md
+â”œâ”€â”€ .github/
+â”‚   â””â”€â”€ workflows/
+â”‚       â””â”€â”€ tests.yml
+â”œâ”€â”€ cleaner/
+â”‚   â”œâ”€â”€ __init__.py
+â”‚   â”œâ”€â”€ __main__.py
+â”‚   â”œâ”€â”€ cleaning.py
+â”‚   â”œâ”€â”€ loader.py
+â”‚   â”œâ”€â”€ main.py
+â”‚   â””â”€â”€ report.py
+â”œâ”€â”€ sample_data/
+â”‚   â””â”€â”€ messy_sample.csv
+â”œâ”€â”€ tests/
+â”‚   â”œâ”€â”€ test_cleaning.py
+â”‚   â”œâ”€â”€ test_cli.py
+â”‚   â””â”€â”€ test_loader.py
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ LICENSE
+â”œâ”€â”€ pyproject.toml
+â”œâ”€â”€ requirements.txt
+â””â”€â”€ README.md
 ```
 
 ## Running the Tests
